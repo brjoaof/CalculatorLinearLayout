@@ -7,12 +7,11 @@
     tools:context=".MainActivity" >
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/display_calc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
         android:layout_weight="0.3"/>
 
     <androidx.appcompat.widget.LinearLayoutCompat
@@ -22,30 +21,22 @@
 
         <Button
             android:id="@+id/plus"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="+" />
+            android:text="+"
+            style="@style/button_default" />
 
         <Button
             android:id="@+id/minus"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+            style="@style/button_default"
             android:text="-" />
 
         <Button
             android:id="@+id/times"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+            style="@style/button_default"
             android:text="*" />
 
         <Button
             android:id="@+id/div"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+            style="@style/button_default"
             android:text="/" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>
@@ -57,30 +48,22 @@
 
         <Button
             android:id="@+id/seven"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+            style="@style/button_default"
             android:text="7" />
 
         <Button
             android:id="@+id/eight"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+            style="@style/button_default"
             android:text="8" />
 
         <Button
             android:id="@+id/nine"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+            style="@style/button_default"
             android:text="9" />
 
         <Button
             android:id="@+id/equal"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
+            style="@style/button_default"
             android:text="=" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>
@@ -104,23 +87,17 @@
 
                 <Button
                     android:id="@+id/four"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    style="@style/button_default"
                     android:text="4" />
 
                 <Button
                     android:id="@+id/five"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    style="@style/button_default"
                     android:text="5" />
 
                 <Button
                     android:id="@+id/six"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    style="@style/button_default"
                     android:text="6" />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
@@ -132,23 +109,17 @@
 
                 <Button
                     android:id="@+id/one"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    style="@style/button_default"
                     android:text="1" />
 
                 <Button
                     android:id="@+id/two"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    style="@style/button_default"
                     android:text="2" />
 
                 <Button
                     android:id="@+id/three"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    style="@style/button_default"
                     android:text="3" />
 
 
@@ -163,9 +134,7 @@
 
             <Button
                 android:id="@+id/zero"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
+                style="@style/button_default"
                 android:text="0" />
 
 
